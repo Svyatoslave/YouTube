@@ -2,6 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import fileUpload from "express-fileupload";
 import * as fs from "fs";
+
 import { STATIC, PORT, DB_URL } from "./constants.js";
 import router from "./router.js";
 
